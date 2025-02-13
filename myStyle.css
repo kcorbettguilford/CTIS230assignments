@@ -5,18 +5,28 @@ body {
         font-weight:bolder;
     }
     h2 {  
-        color:grey; 
+        color: grey;
         background-color: whitesmoke;  
         width: fit-content; 
 
     }
     h3 {
-        color: darkred
+        color: darkred; 
+        font-style: italic;
     }
     strong {
         background-color: grey
     }
     a:link {  
         color:darkcyan;  
+    }
+    a:visited {  
+        color:purple;  
+    }
+    a:hover {  
+        background-color: pink; 
+    }
+    a:active {  
+        background-color: red; 
     }
 }
