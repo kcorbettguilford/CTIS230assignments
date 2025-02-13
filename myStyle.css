@@ -1,9 +1,14 @@
 body {  
     color:blue;  
     h2 {  
-        color:grey;  
+        color:grey; 
+        background-color: whitesmoke;  
+        width: fit-content; 
     }
     h3 {
         color: darkred
+    }
+    strong {
+        background-color: darkgray
     }
 }
