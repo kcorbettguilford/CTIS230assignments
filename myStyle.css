@@ -16,4 +16,7 @@ body {
     strong {
         background-color: darkgray
     }
+    a:link {  
+        color:darkcyan;  
+    }
 }
