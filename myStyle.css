@@ -14,8 +14,17 @@ body {
         color: darkred; 
         font-style: italic;
     }
-    strong {
-        background-color: grey
+    strong, h2 {
+        background-color: whitesmoke;
+    }
+    p strong { 
+            background-color: whitesmoke;
+    }
+    p.intro { 
+        font-style:italic;
+    }
+    img#img1100 {  
+        width:10%;  
     }
     a:link {  
         color:darkcyan;  
