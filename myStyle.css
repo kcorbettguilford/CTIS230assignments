@@ -28,12 +28,18 @@ body {
     p.intro { 
         font-style:italic;
     }
-    div { 
+    div#PartnerAnalysis { 
         background-color: whitesmoke;
         width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
     }
     img#img1100 {  
         width:10%;  
+    }
+    img#Umbrella { 
+        float: left;
+        
     }
     a:link {  
         color:darkcyan;  
