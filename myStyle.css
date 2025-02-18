@@ -34,13 +34,51 @@ body {
         padding-top: 1%;
         padding-bottom: 1%;
     }
+    div.flexible {
+        display:flex; 
+    }
+    div.flexible {  
+        display:flex;  
+    }
     img#img1100 {  
         width:10%;  
+        justify-content: center;
     }
     img#Umbrella { 
         float: left;
-        
     }
+    .header {
+        overflow: hidden;
+        background-color: whitesmoke;
+        padding: 20px 10px;
+      }
+      .header a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 10x;
+        line-height: 25px;
+        border-radius: 4px;
+      } 
+      .header-right {
+        float: right;
+      } 
+      .footer {
+        position: relative;
+      }
+    .footer { 
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: whitesmoke; 
+        color: black;
+        text-align: left;
+        padding-top: 1%; 
+        padding-bottom: 1%;
+        
+      }     
     a:link {  
         color:darkcyan;  
     }
