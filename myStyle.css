@@ -8,16 +8,17 @@ body {
         color: grey;
         background-color: whitesmoke;  
         width: fit-content; 
-
     }
     h3 {
         color: darkred; 
         font-style: italic;
         margin: .5em; 
         padding-top:  2%;
+        text-decoration: underline;
     }
     strong, h2 {
         background-color: whitesmoke;
+        text-shadow: 2px blue; 
     }
     ol li {
         margin: 1em;
@@ -42,7 +43,6 @@ body {
     }
     img#img1100 {  
         width:10%;  
-        justify-content: center;
     }
     img#Umbrella { 
         float: left;
@@ -78,7 +78,7 @@ body {
         padding-top: 1%; 
         padding-bottom: 1%;
         
-      }     
+      }    
     a:link {  
         color:darkcyan;  
     }
