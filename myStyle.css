@@ -18,13 +18,13 @@ body {
     }
     strong, h2 {
         background-color: whitesmoke;
-        text-shadow: 2px blue; 
     }
     ol li {
         margin: 1em;
     }
     p strong { 
             background-color: whitesmoke;
+            text-shadow: 1px;
     }
     p.intro { 
         font-style:italic;
