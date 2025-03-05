@@ -3,31 +3,45 @@ myitem = document.getElementById("firsttest");
 myitem.addEventListener("click", onClick);
 
 function onClick() {  
-    myitem.style.color = "green";
-    myitem.style.backgroundColor = "whitesmoke"
-// Event detail goes green and whitesmoke background
+    myitem.style.color = "red"; 
+    myitem.style.fontSize = "52px"
+
+    //turns first heading red and enlarges text
 }
-thebutton = document.getElementById("thebutton");  
-otheritem = document.getElementById("buttontest");
+myitem = document.getElementById("firsttest");
 
-thebutton.addEventListener("click", onButtonClick);
+    myitem.addEventListener("mouseover", onmouseover);
 
-function onButtonClick() {  
-     otheritem.style.color = "red"; 
-}
-thebutton = document.getElementById("thebutton");  
-otheritem = document.getElementById("buttontest");
+    function onmouseover() {  
+        myitem.style.color = "blue";  
+        myitem.style.fontSize = "36px";
+    }
+    thebutton = document.getElementById("thebutton");  
+    otheritem = document.getElementById("buttontest");
 
-thebutton.addEventListener("click", onButtonClick);
+    thebutton.addEventListener("click", onButtonClick);
 
-function onButtonClick() {  
-     otheritem.style.color = "red"; 
-}
-textentry = document.getElementById("myinput");  
-textentry.addEventListener("change", onChange);
+    function onButtonClick() {  
+        otheritem.style.color = "red";  
+    }
 
-function onChange() {  
-    newtext = myinput.value;  
-    otheritem.innerHTML = newtext;  
-}
+    button1 = document.getElementById("button1");
+    item1 = document.getElementById("test1");
 
+    button1.addEventListener("click", onClick);
+
+
+    function onClick() {  
+        item1.style.color = "green";  
+    }
+
+
+
+
+
+
+
+    
+
+
+    
