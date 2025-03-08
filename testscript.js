@@ -17,23 +17,32 @@ myitem = document.getElementById("firsttest");
         myitem.style.fontSize = "36px";
     }
     thebutton = document.getElementById("thebutton");  
-    otheritem = document.getElementById("buttontest");
+    otheritem1 = document.getElementById("buttontest");
 
     thebutton.addEventListener("click", onButtonClick);
 
     function onButtonClick() {  
-        otheritem.style.color = "red";  
+        otheritem1.style.color = "red";  
     }
 
     button1 = document.getElementById("button1");
-    item1 = document.getElementById("test1");
+    theitem1 = document.getElementById("test1");
 
     button1.addEventListener("click", onClick);
 
-
     function onClick() {  
-        item1.style.color = "green";  
+        theitem1.style.color = "green";  
     }
+
+    textentry = document.getElementsByTagName("myinput");  
+    textentry.addEventListener("change", onChange);
+
+    function onChange() {  
+        newtext = myinput.value; 
+        otheritem.innerHTML = newtext;  
+        
+    }
+
 
 
 
