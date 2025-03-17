@@ -92,3 +92,33 @@ body {
         background-color: red; 
     }
 }
+@media screen and (orientation:landscape) {
+    h1 {
+      font-size: 16px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px
+    }
+}
+@media screen and (orientation:portrait) {
+    h1 {
+      font-size: 16px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 12px;
+        margin: 20px;
+    }
+    p {
+        margin-right: 20px;
+        font-size: 12px
+    }
+}
