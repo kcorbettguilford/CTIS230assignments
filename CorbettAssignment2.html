@@ -15,6 +15,23 @@
 <title>BannerWeb Registration</title>
 </head>
 <body>
+<img src="images/Penpaper.png" alt="Pen & paper" id="Penpaper">
+
+<script>
+  var img = document.getElementById('Penpaper');
+  var currentSize = img.clientWidth; 
+
+  img.onclick = function() {
+      if (currentSize == '20px') {
+          img.style.width = '20px';
+          currentSize = '20px';
+      } else {
+          img.style.width = '30%';
+          currentSize = '30%';
+      }
+  }
+</script>
+
 <h1>Guilford College Spring Semester Registration Guide</h1>
 <p class="intro">Congratulations, its that time of year again—registration time! Below are tips and helpful hints on navigating class registration. Be sure to read and refer to this before your advising meeting.</p>  
 <h2>Finding Classes</h2>  

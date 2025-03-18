@@ -48,6 +48,13 @@ body {
     img#Umbrella { 
         float: left;
     }
+    img#Penpaper {
+        width: 20px;
+        margin-left: 1em;
+        margin-right: 0.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
     .header {
         overflow: hidden;
         background-color: whitesmoke;
@@ -141,11 +148,35 @@ body {
   }
 @media screen and (max-width:1920px) and (orientation:landscape) {
     body {
-
+        margin:20px; 
+    }
+    h1 {
+        font-size: 24px; 
+    }
+    h2{  
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
     }
 }
 @media screen and (max-width:1920px) and (orientation:portrait) {
 body {
-
+    margin:20px; 
 }
+    h1 {
+    font-size: 24px; 
+}
+    h2{  
+    font-size: 18px;
+}
+    h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
 }
